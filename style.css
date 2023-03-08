@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+nav ul li a img{
+    width: 20px;
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
+nav ul li.sign-in a{
+    padding: 10px 20px;
+    background-color: #4485F5;
+    color: white;
+    border-radius: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+main .logo{
+    width: 20%;
+}
+main .search input[type="text"]{
+    width: 100%;
+    height: 55px;
+    border-radius: calc(55px / 2);
+    border: 1px solid rgb(202, 202, 202);
+    position: relative;
+}
+main .search{
+    width: 35%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+main #google-search-search{
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    color: rgb(202, 202, 202);
+}
+main #google-search-microphone{
+    position: absolute;
+    top: -2px;
+    right: 20px;
+    color: rgb(202, 202, 202);
+}
+main #google-search-microphone img{
+    width: 25px;
+}
+main .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+main .buttons button{
+    padding: 10px 15px;
+    font-family: 'Noto Sans', sans-serif;
+    border: none;
+    color: rgb(92, 92, 92);
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
